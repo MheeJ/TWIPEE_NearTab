@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="resId_near">
+        <item>@drawable/ic_wc_black_24dp</item>
+        <item>@drawable/ic_location_on2_black_24dp</item>
+        <item>@drawable/ic_smoking_rooms_black_24dp</item>
+        <item>@drawable/ic_add_circle_outline_black_24dp</item>
+    </integer-array>
+    <string-array name="position">
+        <item>화장실 위치</item>
+        <item>주차장 위치</item>
+        <item>흡연실 위치</item>
+        <item>약국 위치</item>
+    </string-array>
+    <integer-array name="resld_position">
+        <item>@drawable/bathroom</item>
+        <item>@drawable/parking</item>
+        <item>@drawable/smoking</item>
+        <item>@drawable/medical</item>
+    </integer-array>
+</resources>

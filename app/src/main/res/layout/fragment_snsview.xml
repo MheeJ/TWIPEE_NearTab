@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SNSView"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_feedSearchBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/edittext_feedSearchBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:hint="검색"
+            android:maxLines="6" />
+
+        <Button
+            android:id="@+id/button_feedSearch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:clickable="true"
+            android:gravity="center"
+           />
+
+    </LinearLayout>
+
+    <View
+        android:background="#E1E1E2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <com.eschao.android.widget.elasticlistview.ElasticListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@null"
+        android:cacheColorHint="#00000000"
+        android:listSelector="#00000000"
+        android:dividerHeight="1px"
+        android:scrollbars="none"
+        android:id="@+id/SNSListView"
+        android:overScrollMode="never"
+        android:fadingEdge="none"
+        android:divider="@null" />
+
+</LinearLayout>

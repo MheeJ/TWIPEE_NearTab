@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <integer-array name="resId">
+        <item>@drawable/ic_forum_black_24dp</item>
+        <item>@drawable/ic_person_pin_circle_black_24dp</item>
+        <item>@drawable/ic_storage_black_24dp</item>
+    </integer-array>
+    -<string-array name="title">
+    <item>채팅</item>
+    <item>이용자 분포</item>
+    <item>게시판</item>
+</string-array>
+    -<string-array name="content">
+    <item>멋진 등대입니다.</item>
+    <item>사이좋은 펭귄입니다.</item>
+    <item>노란 튤립입니다.</item>
+</string-array>
+</resources>
